@@ -1,0 +1,26 @@
+{
+  "name": "claude-pac-man",
+  "version": "1.0.0",
+  "description": "This is a game of Pac Man written by Claude Code.",
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "claudecode"
+  ],
+  "homepage": "https://github.com/ClarityBusinessSolutions/claude-pac-man#readme",
+  "bugs": {
+    "url": "https://github.com/ClarityBusinessSolutions/claude-pac-man/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarityBusinessSolutions/claude-pac-man.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Nicholas W. Watson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
