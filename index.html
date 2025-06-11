@@ -155,7 +155,7 @@
                 this.nextDirection = null;
                 this.animationCounter = 0;
                 this.mouthOpen = true;
-                this.speed = 0.2;
+                this.speed = 0.1;
                 this.targetX = this.x;
                 this.targetY = this.y;
                 this.moving = false;
@@ -308,7 +308,7 @@
                 this.color = color;
                 this.name = name;
                 this.direction = 'up';
-                this.speed = 0.15;
+                this.speed = 0.08;
                 this.targetX = this.x;
                 this.targetY = this.y;
                 this.moving = false;
@@ -332,7 +332,7 @@
             update() {
                 if (this.eaten) {
                     // Return to spawn
-                    this.speed = 0.3;
+                    this.speed = 0.15;
                     const dx = this.startX - this.x;
                     const dy = this.startY - this.y;
                     
@@ -342,7 +342,7 @@
                         this.eaten = false;
                         this.frightened = false;
                         this.exitingSpawn = true;
-                        this.speed = 0.15;
+                        this.speed = 0.08;
                     } else {
                         this.moveTowards(this.startX, this.startY);
                     }
